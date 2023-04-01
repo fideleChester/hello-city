@@ -1,6 +1,6 @@
 @extends('main')
 
-@section('title','About Us | Hello City')
+@section('title','About Us | '.env('APP_NAME'))
 
 @section('content')
 <p>Built with &hearts; by ELFID K@K@U.</p>
