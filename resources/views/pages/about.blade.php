@@ -1,5 +1,7 @@
 @extends('main')
 
+@section('title','About Us | Hello City')
+
 @section('content')
 <p>Built with &hearts; by ELFID K@K@U.</p>
 
