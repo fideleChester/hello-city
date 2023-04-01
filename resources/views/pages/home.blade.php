@@ -7,7 +7,10 @@
 <div class="img">
     <img src="{{asset("images/drapeau.jpeg")}}" alt="Togo Flag">
 </div>
-<h1>Hello from Togo! </h1>
+<div class="hello">
+<h1 id="hi">Hello from Togo! </h1>
 
-<p>It's currently {{date('h:i A')}}</p>
+<p class="time">It's currently <span id="time">{{date('h:i A')}}</span></p>
+</div>
+
 @endsection
