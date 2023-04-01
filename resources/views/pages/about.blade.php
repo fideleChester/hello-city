@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="img">
-    <img src="images/print.png" alt="Hello World">
+    <img src="{{asset("images/print.png")}}" alt="Hello World">
 </div>
 
 <p>Built with &hearts; by ELFID K@K@U.</p>
